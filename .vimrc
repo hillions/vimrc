@@ -32,3 +32,6 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 " add pastetoggle for skipping tabs while pasting
 set pastetoggle=<F2>
 set paste
+
+" disable bell
+set belloff=all
